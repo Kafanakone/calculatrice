@@ -1,0 +1,40 @@
+body{
+    font-weight: bold !important;
+}
+.container{
+    background-color: #e9ecef;
+}
+.input-cal{
+    background-color: transparent;
+    color: #000;
+    font-weight: 700;
+}
+.input-cal:focus{
+    background-color: transparent;
+    box-shadow: none;
+
+}
+input:read-only{
+    background-color: transparent;
+}
+input{
+    background-color: #fff !important;
+    border: none;
+}
+input:hover{
+    background-color: transparent !important;
+}
+input[type="text"]{
+    background-color: transparent !important;
+    cursor: not-allowed !important;
+}
+.border{
+    border-width: 3px !important;
+}
+.btn-primary{
+    background-color: #007bff !important;
+    border: none;
+}
+.btn-primary:hover{
+    filter: brightness(1.1);
+}
